@@ -1,0 +1,33 @@
+.form-group.required .control-label:after {
+    content: "*";
+    color: red;
+}
+
+.flex-container {
+    display: flex;
+}
+
+ul.list-group {
+    width: 80%;
+    display: inline-block;
+}
+
+div.view-buttons {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+
+.flex-container div.view-buttons .btn-primary {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.btn-default {
+    background-color: white;
+    color: black;
+    border: 1px solid #e7e7e7;
+    }
+    .btn-default:hover{
+        background: #ccc;  }
