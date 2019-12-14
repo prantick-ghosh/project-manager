@@ -1,0 +1,24 @@
+Windows PowerShell
+Copyright (C) 2015 Microsoft Corporation. All rights reserved.
+
+PS C:\Windows\system32> cd..
+PS C:\Windows> cd..
+PS C:\> cd C:\Users\Admin\GIT\project-manager\project-manager-api
+PS C:\Users\Admin\GIT\project-manager\project-manager-api> .\packages\NBench.Runner.1.2.2\tools\net452\NBench.Runner.exe .\PerformanceTests\bin\Debug\PerformanceTests.dll
+Executing Benchmarks in C:\Users\Admin\GIT\project-manager\project-manager-api\PerformanceTests\bin\Debug\PerformanceTests.dll
+------------ STARTING PerformanceTests.TaskPerfTests+PerformanceTests ----------
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:00.9601945
+Elapsed Time - ms: 960.00 ,ms: /s 999.80 , ns / ms: 10,00,202.60
+--------------- END RUN ---------------
+
+--------------- RESULTS: PerformanceTests.TaskPerfTests+PerformanceTests ---------------
+--------------- DATA ---------------
+Elapsed Time: Max: 960.00 ms, Average: 960.00 ms, Min: 960.00 ms, StdDev: 0.00 ms
+Elapsed Time: Max / s: 999.80 ms, Average / s: 999.80 ms, Min / s: 999.80 ms, StdDev / s: 0.00 ms
+
+--------------- ASSERTIONS ---------------
+[PASS] Expected Elapsed Time to must be less than or equal to 5,000.00 ms; actual value was 960.00 ms.
+
+------------ FINISHED PerformanceTests.TaskPerfTests+PerformanceTests ----------
+PS C:\Users\Admin\GIT\project-manager\project-manager-api>
