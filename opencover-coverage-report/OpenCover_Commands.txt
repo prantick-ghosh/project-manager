@@ -1,0 +1,9 @@
+
+Code Coverage Command:
+C:\Users\Admin\AppData\Local\Apps\OpenCover>OpenCover.Console.exe -register:user -target:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\MSTest.exe" -targetargs:"/testcontainer:\"C:\Users\Admin\GIT\project-manager\project-manager-api\ProjectManager.Tests\bin\Debug\ProjectManager.Tests.dll\" /resultsfile:C:\Reports\MSTest\abc.trx" -filter:"+[/" -mergebyhash -output:"C:\Reports\MSTest\CodeCoverageReport.xml
+Executing: C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\MSTest.exe
+
+
+Report Generator: Not available for .NET 4.6
+Command: 
+C:\Users\Admin\Downloads\ReportGenerator_4.3.8\net47>ReportGenerator.exe -reports:"C:\Reports\MSTest\CodeCoverageReport.xml" -targetdir:"C:\Reports\CodeCoverage"
