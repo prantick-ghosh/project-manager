@@ -1,0 +1,36 @@
+
+GITHUB Commands:
+---------------------------------------------------------------------
+
+GITHUB Link: https://github.com/prantick-ghosh/project-manager 
+
+Admin@DOTNET MINGW64 ~
+$ cd GIT_App/
+
+Admin@DOTNET MINGW64 ~/GIT_App
+$ git config --global user.name "prantick-ghosh"
+
+Admin@DOTNET MINGW64 ~/GIT_App
+$ git clone https://github.com/prantick-ghosh/project-manager.git
+
+Admin@DOTNET MINGW64 ~/GIT_App/project-manager (master)
+$ git add karma-test-report
+
+Admin@DOTNET MINGW64 ~/GIT_App/project-manager (master)
+$ git commit -m "Adding Karma test report" karma-test-report/
+
+Admin@DOTNET MINGW64 ~/GIT_App/project-manager (master)
+$ git status
+
+Admin@DOTNET MINGW64 ~/GIT_App/project-manager (master)
+$ git push -u origin master
+
+Admin@DOTNET MINGW64 ~/GIT_App/project-manager/project-manager-client-app/src/ap                                                                                                                                                                                               p/models (master)
+$ git rm parent-task.spec.ts
+rm 'project-manager-client-app/src/app/models/parent-task.spec.ts'
+
+Admin@DOTNET MINGW64 ~/GIT_App/project-manager/project-manager-client-app
+$ git pull origin master
+
+
+
